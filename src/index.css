@@ -1,0 +1,113 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cccccc;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #2741b3;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ebf5eb;
+}
+
+/* Estilos para la etiqueta nav */
+nav {
+  background-color: #ffffff; /* Fondo oscuro */
+  padding: 10px 20px; /* Espaciado interno */
+ 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+/* Enlaces dentro del nav */
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+/* Efecto al pasar el ratón por encima de los enlaces */
+nav a:hover {
+  color: #ff9f00; 
+  transform: translateY(-3px); 
+}
+
+
+nav .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+nav .nav-links li {
+  list-style: none;
+}
+
+
+@media (max-width: 768px) {
+  nav {
+    padding: 10px;
+  }
+
+  nav .nav-links {
+    flex-direction: column;
+    gap: 10px; 
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+}
+
+.Contenedores {
+  background-color: #ffffff; 
+  padding: 10px 20px; 
+ 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin-top: 0px;
+  margin-right: 200px;
+}
+
+img {
+  width: 100px;
+}
+
+.dato {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(230, 230, 230);
+ 
+}
